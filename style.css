@@ -1,0 +1,233 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general css */
+
+.img{
+width: 100%;
+}
+#root{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    flex: 0 1 30%;
+    margin: 10px;
+}
+.form{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.input{
+    font-size: 1.6rem;
+margin: 20px;
+padding: .3rem 1rem;
+}
+#select{
+    font-size: 1.4rem;
+    padding: .3rem .7rem;
+	margin-right: 20px;
+	margin-left: 20px;
+	/* align-items: right; */
+}
+.se{
+	text-align: right;
+}
+.div{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	background-color: teal;
+	padding: 1rem 0;
+}
+/* register fotm  */
+
+.rigister-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60VH;
+	flex-direction: column;
+	border: 2px solid cornflowerblue;
+	width: 50%;
+	margin: 20px auto 0 auto;
+}
+.input-tag{
+	width: 80%;
+	border: 2px solid cornflowerblue;
+	margin: 10px 0;
+	padding: .4rem ;
+	font-size: 1.4rem;
+}
+
+label{
+	font-size: 2rem;
+	font-weight: 600;
+	border-bottom: 2px solid cornflowerblue;
+	margin-bottom: 3px;
+	padding: 3px 0;
+	margin: 10px ;
+	/* background-color: red; */
+}
+
+/* sign up html page */
+
+#signup{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 40vh;
+	border: 2px solid red;
+	flex-direction: column;
+	width: 40%;
+	margin: 20px  auto 0 auto;
+}
+.form-div{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 15px 0;
+}
+.signup-input{
+	width: 90%;
+	margin: 8px 0;
+	padding: 10px;
+	border: 2px solid cornflowerblue;
+}
+
+.signup-input-sub{
+	width: 94%;
+	margin: 20px 0;
+	padding: 10px;
+}
+.input-brand{
+	border: 2px solid cornflowerblue;
+	width: 20%;
+	font-size: 1.5rem;
+	/* padding: .6rem 0; */
+}
+.input-div{
+	width: 90%;
+}
+.div2-data{
+	text-align: center;
+	background-color: grey;
+}
+.div2-data>h2{
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: coral;
+	margin: 3px 0;
+}
+.div2-data>h3{
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: coral;
+	margin: 3px 0;	
+}
+.category-p{
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: teal;
+	margin: 3px 0;
+}
+.category-price{
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: white;
+	margin: 3px 0;	
+}
+#price{
+	font-size: 1.4rem;
+    padding: .3rem .7rem;
+	/* margin: 0 15px ; */
+}
+#size{
+	font-size: 1.4rem;
+    padding: .3rem .7rem;
+	/* margin: 0 15px ; */
+}
+#brand{
+	font-size: 1.4rem;
+    padding: .3rem .7rem;
+	/* margin: 0 15px ;	 */
+}
+.btn{
+	font-size: 1.3rem;
+	margin: .5rem ;
+	cursor: pointer;
+}
+
+.cart-h1{
+	text-align: center;
+	font-size: 2.3rem;
+
+}
+.cart-div{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	width: 100%;
+}
+input{
+	font-size: 1.3rem;
+}
+
+.cart-h2{
+	font-size: 1.4rem;
+	background-color: black;
+	color: white;
+	padding: .2rem .8rem;
+	cursor: pointer;
+	/* margin-left: 20px; */
+}
