@@ -58,8 +58,8 @@ function remove(elm,index) {
     let y= data.splice(1,data.length);
     let updatedData= x.concat(y);
     console.log(updatedData)
-
+    window.location.reload();
     localStorage.setItem("data",JSON.stringify(updatedData))
     
 }
-// console.log(cart)
+
